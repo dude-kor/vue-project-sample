@@ -10,7 +10,20 @@ declare module 'vue' {
     Accordion: typeof import('./src/components/Accordion.vue')['default']
     BAccordion: typeof import('bootstrap-vue-next')['BAccordion']
     BAccordionItem: typeof import('bootstrap-vue-next')['BAccordionItem']
+    BButton: typeof import('bootstrap-vue-next')['BButton']
+    BCollapse: typeof import('bootstrap-vue-next')['BCollapse']
+    BDropdownItem: typeof import('bootstrap-vue-next')['BDropdownItem']
+    BFormInput: typeof import('bootstrap-vue-next')['BFormInput']
+    BNav: typeof import('bootstrap-vue-next')['BNav']
+    BNavbar: typeof import('bootstrap-vue-next')['BNavbar']
+    BNavbarBrand: typeof import('bootstrap-vue-next')['BNavbarBrand']
+    BNavbarNav: typeof import('bootstrap-vue-next')['BNavbarNav']
+    BNavbarToggle: typeof import('bootstrap-vue-next')['BNavbarToggle']
+    BNavForm: typeof import('bootstrap-vue-next')['BNavForm']
+    BNavItem: typeof import('bootstrap-vue-next')['BNavItem']
+    BNavItemDropdown: typeof import('bootstrap-vue-next')['BNavItemDropdown']
     HelloAccordion: typeof import('./src/components/HelloAccordion.vue')['default']
+    HelloNavBar: typeof import('./src/components/HelloNavBar.vue')['default']
     HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./src/components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./src/components/icons/IconDocumentation.vue')['default']
@@ -21,5 +34,8 @@ declare module 'vue' {
     RouterView: typeof import('vue-router')['RouterView']
     TheWelcome: typeof import('./src/components/TheWelcome.vue')['default']
     WelcomeItem: typeof import('./src/components/WelcomeItem.vue')['default']
+  }
+  export interface ComponentCustomProperties {
+    vBColorMode: typeof import('bootstrap-vue-next')['vBColorMode']
   }
 }
