@@ -7,6 +7,7 @@ import { defineStore, acceptHMRUpdate } from 'pinia'
  */
 function apiTest() {
   const response: any = axios.get('http://localhost:8080/controller/test')
+  console.log('test for git push')
   return response.data
   //   ({
   //     mehtod: 'get',
