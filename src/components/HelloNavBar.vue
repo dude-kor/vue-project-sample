@@ -1,13 +1,13 @@
 <script setup lang="ts"></script>
 
 <template>
-  <BNavbar style="background-color: #42b883" :toggleable="'lg'">
+  <BNavbar style="background-color: #00BD7E" :toggleable="'lg'">
     <BNavbarBrand href="#">NavBar</BNavbarBrand>
     <BNavbarToggle :target="'nav-collapse'" />
     <BCollapse :id="'nav-collapse'" is-nav>
       <BNavbarNav>
-        <BNavItem href="#">Link</BNavItem>
-        <BNavItem href="#" disabled>Disabled</BNavItem>
+        <BNavItem href="#">MENU</BNavItem>
+        <BNavItem href="#" disabled>DISABLED</BNavItem>
       </BNavbarNav>
       <!-- Right aligned nav items -->
       <BNavbarNav class="ms-auto mb-2 mb-lg-0">
